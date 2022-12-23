@@ -1,6 +1,6 @@
 export default function StepB(props) {
   const changeHandler = (event) => {
-    if (event.target.value === "---..") {
+    if (event.target.value === "8") {
       props.onNext();
     }
   };
