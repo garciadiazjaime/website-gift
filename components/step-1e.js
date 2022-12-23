@@ -15,6 +15,7 @@ export default function StepE(props) {
         div,
         input {
           font-size: 40px;
+          width: 100%;
         }
       `}</style>
     </div>

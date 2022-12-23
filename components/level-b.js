@@ -12,12 +12,11 @@ export default function LevelB(props) {
       <p>
         Aún hay 2️⃣ más, cuestión de continuar.
       </p>
-      <p>Pero ojo, que fallar es perder lo 🐄 🤠.</p>
+      <p>Pero ojo, que fallar es perder lo avanzado.</p>
 
       <button onClick={() => clickHandler()}>🟢</button>
       <style jsx>{`
-        div,
-        input {
+        div {
           font-size: 40px;
         }
         button {

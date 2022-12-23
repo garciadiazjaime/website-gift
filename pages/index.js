@@ -6,12 +6,17 @@ export default function Home() {
   return (
     <div>
       <main>
-        <Countdown date={Date.now() + 30 * 60 * 1000} />
+        <div className="center">
+          <Countdown date={Date.now() + 26 * 60 * 1000} />
+        </div>
 
         <Game />
       </main>
 
       <style jsx>{`
+        .center {
+          text-align: center;
+        }
         main {
           font-size: 40px;
         }

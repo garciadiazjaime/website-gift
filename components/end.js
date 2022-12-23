@@ -5,7 +5,7 @@ export default function End(props) {
 
   return (
     <div>
-      <h1>🏆 🏆 🏆</h1>
+      <h1 className="center">🏆 🏆 🏆</h1>
 
       <img src="https://www.mememaker.net/static/images/memes/4072280.jpg" />
 
@@ -13,7 +13,7 @@ export default function End(props) {
       Feliz Navidad!
       </p>
       <p>
-        Solo queda el nombre asignar 🥳🥳🥳
+        Solo queda el correo asignar 🥳🥳🥳
       </p>
 
       
@@ -22,6 +22,7 @@ export default function End(props) {
       <input />
       <img src="https://www.etsy.com/assets/dist/images/giftcards/designs/49/560x332.20201215163345.png" />
 
+      <br /><br />
       🎁
       <input />
       <img src="https://www.sephora.com/productimages/sku/s00025-main-zoom.jpg?imwidth=315" />
@@ -34,6 +35,9 @@ export default function End(props) {
 
       <br /><br />
       <style jsx>{`
+        .center {
+          text-align: center;
+        }
         div {
           font-size: 40px;
         }

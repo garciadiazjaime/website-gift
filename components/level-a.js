@@ -18,18 +18,14 @@ export default function LevelB(props) {
         peRo cuidado con el intervalo,
       </p>
       <p>
-        pues te deja sin letrado.
+        pues te deja sin letradO.
       </p>
       <input onChange={changeHandler} placeholder="" />
       <style jsx>{`
         div,
         input {
           font-size: 40px;
-        }
-        button {
           width: 100%;
-          padding: 24px 0;
-          font-size: 25px;
         }
       `}</style>
     </div>

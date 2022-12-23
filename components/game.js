@@ -28,7 +28,7 @@ export default function Game() {
   const [step, setStep] = useState("LevelA");
 
   return (
-    <div>
+    <div className="container">
       <div>
         {step === "LevelA" && <LevelA onNext={() => setStep("Step1A")} />}
 
@@ -70,22 +70,8 @@ export default function Game() {
       </div>
 
       <style jsx>{`
-        main {
-          font-size: 40px;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
+        .container {
+          padding: 6px;
         }
       `}</style>
     </div>

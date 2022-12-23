@@ -13,6 +13,7 @@ export default function StepA(props) {
         div,
         input {
           font-size: 40px;
+          width: 100%;
         }
       `}</style>
     </div>
